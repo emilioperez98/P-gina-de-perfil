@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Navigation Bar Example</title>
+</head>
+
+
+<body>
+
+    <div class="nav">
+        <div class="nav-container">
+            <h1 class="profile">Profile</h1>
+            <div class="button-container">
+                <ul class="buttons">
+                    <li><a href="#" class="home">Home</a></li>
+                    <li><a href="#" class="myprofile">My Profile</a></li>
+                    <li><a href="#" class="find">Find Connections</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <button class="signout">Sign Out</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-container main">
+
+        <div class="leftboxes">
+
+            <div class="card-container">
+                <div class="tarjeta">
+                    <div class="heading">
+                        <img src="images/jane-m.jpg" alt="user" class="icon">
+                    </div>
+                    <div class="body">
+                        <h2>Jane Doe</h2>
+                        <div class="ubicación">
+                            <img src="icons/map-marker.png" alt="map-marker" class="icon2">
+                            <p class="ciudad"> Seattle </p>
+                        </div>
+                        <div class="habilidades">
+                            <p> Developer | Engineer | Problem Solver </p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                        <div class="perfil">
+                            <img src="icons/gear.png" alt="gear" class="icon3">
+                            <a href="#" class="editperfil"> Edit Profile </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="codingDojo">
+                <div class="educacion">
+                    <h1>
+                        Education
+                    </h1>
+                </div>
+                <div class="fullstack">
+                    <h2 class="dojo">Coding Dojo - Full Stack Bootcamp</h2>
+                    <h4 class="fecha">Dec 2019 - Mar 2020</h4>
+                    <h4 class="cinturon">Triple black belt in Python, MERN and C#...</h4>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rightboxes">
+
+
+            <div class="card-container2"></div>
+
+            <div class="tarjeta2">
+                <div class="tittle">
+                    <span id="connectionRequestNumber" class="notification">2</span>
+                    <h3>Connection Requests</h3>
+                </div>
+                <ul class="userprofiles">
+                    <li class="usercontent">
+                        <span>
+                            <img src="images/todd-s.jpg" alt="todd" class="pfp">
+                            Todd E
+                        </span>
+                        <span class="buttons">
+                            <img src="icons 2/accept-circle.png" alt="accept" class="icon4">
+                            <img src="icons 2/close-circle.png" alt="close" class="icon5">
+                        </span>
+                    </li>
+                    <li class="usercontent">
+                        <span>
+                            <img src="images/phil-s.jpg" alt="phil" class="pfp">
+                            Phil E
+                        </span>
+                        <span class="buttons">
+                            <img src="icons 2/accept-circle.png" alt="accept" class="icon4">
+                            <img src="icons 2/close-circle.png" alt="close" class="icon5">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tarjeta3">
+                <div class="tittle">
+                    <span id="notificationNumber" class="notification">418</span>
+                    <h3>Your Connections</h3>
+                </div>
+                <ul class="userprofiles" id="myConnections">
+                    <li class="usercontent start">
+                        <img src="images/adrien-s.jpg" alt="adrien" class="pfp">
+                        Adrien D
+                    </li>
+                    <li class="usercontent start">
+                        <img src="images/anne-s.jpg" alt="anne" class="pfp">
+                        Anne J
+                    </li>
+                    <li class="usercontent start">
+                        <img src="images/alayne-s.jpg" alt="alayne" class="pfp">
+                        Alayne T
+                    </li>
+                    <li class="usercontent start">
+                        <img src="images/arry-s.jpg" alt="arry" class="pfp">
+                        Arry Y
+                    </li>
+                </ul>
+                <div class="footer">
+                    <a href="#" class="view">View More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

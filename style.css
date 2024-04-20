@@ -1,0 +1,320 @@
+/* navbar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.profile {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    cursor: default;
+    margin-left: -5px;
+}
+
+.profile:hover {
+    color: #13A1B7;
+}
+
+.button-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.buttons li {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons li:last-child {
+    margin-right: 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons a:hover {
+    color: #13A1B7;
+}
+
+.home {
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.find {
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.myprofile {
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.signout {
+    list-style: none;
+    background-color: #13A1B7;
+    color: white;
+    padding: 5px 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 240px;
+
+}
+
+.signout:hover {
+    background-color: #13a1b7c5;
+}
+
+/* Tarjeta Jane Doe */
+.flex-container.main {
+    display: flex;
+    justify-content: center;
+}
+
+.leftboxes {
+    margin-right: 30px; 
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.heading {
+    position: relative;
+    height: 70px;
+    background-color: #13A1B7;
+    border: 2px solid lightgray;
+    border-bottom: none;
+    width: 450px;
+}
+
+.body {
+    border: 2px solid lightgray;
+    height: 230px;
+    width: 450px;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.icon {
+    width: 60px;
+    position: absolute;
+    top: 72px;
+    transform: translateY(-50%);
+    left: 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.icon2 {
+    width: 15px;
+    margin-left: 15px;
+}
+
+.icon3 {
+    width: 20px;
+    margin-left: 15px;
+}
+
+.ubicación {
+    display: flex;
+    align-items: center;
+}
+
+.habilidades {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.ciudad {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.perfil {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.editperfil {
+    color: dodgerblue;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.editperfil:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+/* Educacion card */
+
+.rightboxes {
+    margin-left: 30px; 
+}
+
+.codingDojo {
+    font-family: 'Roboto', sans-serif;
+    width: 450px;
+    margin-top: 30px;
+    border: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.educacion {
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow: hidden;
+    padding-left: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.fullstack {
+    text-align: 10px, 10px;
+    padding-left: 3px;
+}
+
+.fecha {
+    color: gray;
+    padding-left: 20px;
+}
+
+.cinturon {
+    padding-left: 20px;
+}
+
+/* Connection requests, your connections */
+.tarjeta2, .tarjeta3 {
+    background-color: #fff;
+    border: 2px solid lightgray;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.tittle {
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    background-color: #13A1B7;
+    border-bottom: 2px solid lightgray;
+}
+
+.footer {
+    border-top: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.view{
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.userprofiles {
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.usercontent, 
+.usercontent > * {
+    display: flex;
+    align-items: center;
+}
+
+.usercontent {
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.usercontent.start {
+    justify-content: flex-start;
+}
+
+.pfp, .icon4, .icon5 {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon4, .icon5 {
+    height: 35px;
+}
+
+.icon4, .icon5, .btn {
+    cursor: pointer;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.notification {
+    font-size: 1rem;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    background-color: gray;
+    border: #000000 1px solid;
+    border-radius: 12px;
+    margin-right: 10px;
+}
